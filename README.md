@@ -1,16 +1,62 @@
-# React + Vite
+#  GenerateMyCV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur **GenerateMyCV** ! Il s'agit d'une application web rapide et intuitive permettant de générer des Curriculum Vitae (CV) professionnels en quelques clics. Construit avec **React** et **Vite**, le projet offre un rendu en temps réel et l'exportation directe en PDF.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Fonctionnalités Principales
 
-## React Compiler
+- **Édition Intuitive :** Remplissez vos informations (Profil, Expériences, Formations, Compétences) via un formulaire dynamique et simple d'utilisation.
+- **Aperçu en Temps Réel :** Visualisez instantanément les modifications apportées à votre CV.
+- **Multitude de Templates :** Choisissez parmi 5 designs professionnels (Moderne, Minimaliste, Exécutif, Contemporain, Élégant).
+- **Exportation en PDF :** Téléchargement en haute qualité de votre CV prêt à l'emploi grâce à `html2canvas` et `jspdf`.
+- **Interface Moderne :** Une interface utilisateur propre et réactive, améliorée avec de superbes icônes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Technologies Utilisées
 
-## Expanding the ESLint configuration
+Ce projet repose sur une stack moderne pour garantir rapidité et fluidité :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **[React 19](https://react.dev/)** - Bibliothèque UI principale.
+- **[Vite.js](https://vitejs.dev/)** - Outil de build ultra-rapide et serveur de développement.
+- **[jsPDF](https://github.com/parallax/jsPDF) & [html2canvas](https://html2canvas.hertzen.com/)** - Moteurs de rendu et génération PDF côté client.
+- **CSS3** - Pour le design complet et la gestion de la mise en page (Flexbox/Grid).
+
+## 📦 Installation et Lancement
+
+Pour cloner et exécuter cette application localement, assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine.
+
+### 1. Cloner le répertoire
+```bash
+git clone https://github.com/Issa-Mgn/generatemycv.git
+cd generatemycv
+```
+
+### 2. Installer les dépendances
+```bash
+npm install
+```
+
+### 3. Lancer le serveur de développement local
+```bash
+npm run dev
+```
+
+### 4. Ouvrir dans le navigateur
+Accédez à [http://localhost:5173](http://localhost:5173) pour utiliser l'application localement.
+
+## 🏗️ Build et Production
+
+Pour construire l'application et la préparer au déploiement pour la production :
+
+```bash
+npm run build
+```
+Le code optimisé se trouvera dans le dossier `/dist`.
+
+## 👨‍💻 Crédits
+Projet développé par **Issa**  
+GitHub : [Issa-Mgn](https://github.com/Issa-Mgn)  
+Powered by : **L!txx**
+
+---
+*Si vous appréciez ce projet, n'hésitez pas à laisser une étoile ⭐ sur GitHub !*
